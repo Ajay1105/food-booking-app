@@ -18,7 +18,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 dotenv.config();
 
-const whitelist = ["http://localhost:3000"]
+const whitelist = ["http://localhost:3000","http://localhost:5000"]
 const corsOptions = {
   origin: function (origin, callback) {
     if (!origin || whitelist.indexOf(origin) !== -1) {

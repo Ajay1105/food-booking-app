@@ -7,7 +7,7 @@ return(
   <div className="container-fluid">
   <div style={{"display":"flex"}}>
       <img src="./logo192.png" alt="A" width="30" height="24" className="d-inline-block align-text-top" />
-     <h1> Secret Project </h1>
+     <h1> Food App Project </h1>
   </div>
       <img src='./cart.svg' width="30" height="24" onClick={()=>{prop.click()}}/>
   </div>
