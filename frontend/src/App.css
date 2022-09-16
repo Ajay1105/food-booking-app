@@ -1,0 +1,126 @@
+.App {
+  text-align: center;
+  background-color: #FFF9CA;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.main{
+  height: 80vh;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 5%;
+  justify-content: space-around;
+  overflow-y: scroll;
+  background-color: #F9F9F9;
+}
+.m{
+  margin: 10px;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 27vw;
+}
+.m p{
+  margin: 0px;
+  word-wrap: normal;
+}
+#cart{
+  position: absolute;
+  margin-left: 15px;
+  margin-top: 10px;
+  border-radius: 50%;
+  background-color: white;
+}
+.cardData{
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+.cardData h1,h3{
+  margin: 0px;
+}
+.img{
+  height: 30vh;
+  width: 27vw;
+  border-radius: 10px;
+}
+
+.heading{
+text-align: center;
+font-size: 40px;
+}
+
+.main2{
+  width: 90%;
+  max-height: 40vh;
+  margin-top: 8%;
+  margin-left: 5vw;
+  overflow-y: scroll;
+  background-color: #F9F9F9;
+}
+
+.cart {
+  padding: 5px 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.price{
+  margin: 4vh 5vw;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 30px;
+}
+.price button{
+  margin-left: 10vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+.btn{
+  width: 100%;
+  margin: 8px 0px 0px;
+}

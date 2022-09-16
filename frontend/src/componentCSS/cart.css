@@ -1,0 +1,31 @@
+.cart{
+    width: 40vw;
+    height: 100vh;
+    position: fixed;
+    right: 0%;
+    background-color: #E1FFEE;
+    outline: 2px #251D3A solid;
+    padding: 0px;
+    display: block;
+}
+.heading2{
+    display:block;
+    background-color:#C3FF99 ;
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+}
+.heading2 h1{
+    display: inline-block;
+}
+.cart img{
+    height: 15px;
+    width: 15px;
+   float: right;
+   margin: 20px 20px 20px 0px;
+
+}
+
+.cartItem{
+    display: block;
+}

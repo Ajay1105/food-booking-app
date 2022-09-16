@@ -1,0 +1,62 @@
+{data.map((singleData)=>{
+    const base64String = btoa(
+      String.fromCharCode(...new Uint8Array(singleData.img.data.data))
+    )
+    return <img src= {`data:image/png;base64,${base64String}`} />
+  })}
+
+
+  // const [outLined, change] = React.useState(data)
+  
+  // function toggle(id) {
+  //   change((prev) => {
+  //     return [...prev,
+  //     prev[id - 1].isOutlined = !prev[id - 1].isOutlined]
+  //   })
+  // }
+
+  // const [cartItem,addItem] =  useState([]);
+  // const [total,setTotal] = useState(0);
+
+  // function toggle2(id){
+  //  addItem((prev)=>{
+  //   return[...prev,id]
+  //  })
+  //  CA.forEach(item=>{
+  //   setTotal (prev=>{
+  //     return prev + item[0].price;
+  //   })
+  // })
+  // }
+    
+  // const DA = data.map(item => {
+  //   return < MainContent id={item.idi} name={item.name} price={item.price} description = {item.description} src={item.src} key={item.idi} on={item.isOutlined} click={toggle} onClick={toggle2}/>
+  // })
+
+  // const CA = cartItem.map(each=>{
+  //   return(
+  //     data.filter(item=>{
+  //       return each === item.idi;
+  //     })
+  //   );
+  // });
+  
+
+
+  // const CD = CA.map((items,index)=>{
+  //   return <Cart key={items[0].idi} cardData={items[0]}/>
+  // })
+
+
+  //   <>
+  //   {console.log(CA)}
+  //   {console.log(total)}
+  //   <Navbar />
+  //     <div className='main'>
+  //       {DA}
+  //     </div>
+  //     <div className='main2'>
+  //     {CD}
+  //   </div>
+  //   <Price price={total} />
+  //   </>
